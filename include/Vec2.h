@@ -7,6 +7,9 @@
 
 #include <cmath>
 
+namespace zv
+{
+
 struct Vec2
 {
     float x{};
@@ -67,5 +70,7 @@ struct Vec2
 
     [[nodiscard]] constexpr float cross(const Vec2& rhs) const noexcept { return x * rhs.y - y * rhs.x; }
 };
+
+}
 
 #endif //CPPGAMEENGINE_VEC2_H
