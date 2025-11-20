@@ -43,6 +43,7 @@ FetchContent_MakeAvailable(imgui_sfml)
 # --------------------------
 add_executable(CppGameEngine
         src/main.cpp
+        include/Vec2.h
 )
 
 target_include_directories(CppGameEngine PRIVATE include)
