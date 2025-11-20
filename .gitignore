@@ -1,0 +1,62 @@
+# =============================
+# Build directories (CMake, CLion, etc.)
+# =============================
+/build/
+/cmake-build-*/
+/out/
+
+# CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+
+# Optional: ignore compile_commands.json (remove if you want it)
+compile_commands.json
+
+# =============================
+# FetchContent dependencies
+# =============================
+/_deps/
+/**/_deps/
+
+# =============================
+# JetBrains / CLion
+# =============================
+.idea/
+*.iml
+
+# =============================
+# OS junk files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Output binaries
+# =============================
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+
+# =============================
+# Temporary / misc files
+# =============================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =============================
+# C++ autocomplete / indexing (optional)
+# =============================
+*.cache/
+.vscode/
